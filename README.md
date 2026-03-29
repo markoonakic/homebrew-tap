@@ -1,18 +1,20 @@
-# Markoonakic Tap
+# Homebrew Tap
 
-## How do I install these formulae?
+Homebrew tap for Marko Onakic CLI tools.
 
-`brew install markoonakic/tap/<formula>`
+## Install
 
-Or `brew tap markoonakic/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "markoonakic/tap"
-brew "<formula>"
+```bash
+brew tap markoonakic/tap
+brew install tarnished-cli
 ```
 
-## Documentation
+## Formulae
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- `tarnished-cli` - Agent-first CLI for Tarnished
+
+## Source
+
+- Main source repository: https://github.com/markoonakic/tarnished
+- Releases: https://github.com/markoonakic/tarnished/releases
+- PyPI: https://pypi.org/project/tarnished-cli/
