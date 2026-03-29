@@ -7,6 +7,8 @@ class TarnishedCli < Formula
   sha256 "331e4b9fbcdbf6070a8f6a89d2a04c445c81b24262e4414683369b5be8163016"
   license "MIT"
 
+  depends_on "maturin" => :build # for pydantic-core
+  depends_on "rust" => :build # for pydantic-core
   depends_on "python@3.14"
 
   resource "annotated-doc" do
