@@ -1,6 +1,6 @@
 # Homebrew Tap
 
-Homebrew tap for Marko Onakic CLI tools.
+Homebrew tap
 
 ## Install
 
