@@ -1,7 +1,5 @@
 # Homebrew Tap
 
-Homebrew tap
-
 ## Install
 
 ```bash
