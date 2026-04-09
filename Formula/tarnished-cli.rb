@@ -3,7 +3,7 @@ class TarnishedCli < Formula
 
   desc "Agent-first CLI for Tarnished"
   homepage "https://github.com/markoonakic/tarnished"
-  url "https://github.com/markoonakic/tarnished/releases/download/v0.1.4/tarnished_cli-0.1.4.tar.gz"
+  url "https://files.pythonhosted.org/packages/4d/a0/0d13a0a04e6df7615ae69dbc0b575261aace5010222ef7e8569c4adbfc31/tarnished_cli-0.1.4.tar.gz"
   sha256 "2cbfe5340dc13ee711db4fab8e8907920739af1437f16b27e645b184c92768f6"
   license "MIT"
 
