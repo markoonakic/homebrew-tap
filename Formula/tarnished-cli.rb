@@ -3,8 +3,8 @@ class TarnishedCli < Formula
 
   desc "Agent-first CLI for Tarnished"
   homepage "https://github.com/markoonakic/tarnished"
-  url "https://files.pythonhosted.org/packages/34/c2/b58e3b0fdb63d9b5244fe8c486c6a03b90466d4e71e3c95921fc2db970a1/tarnished_cli-0.1.2.tar.gz"
-  sha256 "331e4b9fbcdbf6070a8f6a89d2a04c445c81b24262e4414683369b5be8163016"
+  url "https://github.com/markoonakic/tarnished/releases/download/v0.1.4/tarnished_cli-0.1.4.tar.gz"
+  sha256 "2cbfe5340dc13ee711db4fab8e8907920739af1437f16b27e645b184c92768f6"
   license "MIT"
 
   depends_on "maturin" => :build # for pydantic-core
