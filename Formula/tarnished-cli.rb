@@ -3,8 +3,8 @@ class TarnishedCli < Formula
 
   desc "Agent-first CLI for Tarnished"
   homepage "https://github.com/markoonakic/tarnished"
-  url "https://files.pythonhosted.org/packages/4d/a0/0d13a0a04e6df7615ae69dbc0b575261aace5010222ef7e8569c4adbfc31/tarnished_cli-0.1.4.tar.gz"
-  sha256 "2cbfe5340dc13ee711db4fab8e8907920739af1437f16b27e645b184c92768f6"
+  url "https://files.pythonhosted.org/packages/b1/e5/2a4a0b2864d7f9ca4b42ef2e5fd4f32386b1963d43403e4863aa484c743d/tarnished_cli-0.1.5.tar.gz"
+  sha256 "f0889bbfdad097766c1b45650c4b1dd1b1d61b532064592b95bef879ec7d3464"
   license "MIT"
 
   depends_on "maturin" => :build # for pydantic-core
@@ -117,8 +117,8 @@ class TarnishedCli < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/b3/c6/f3b320c27991c46f43ee9d856302c70dc2d0fb2dba4842ff739d5f46b393/rich-14.3.3.tar.gz"
-    sha256 "b8daa0b9e4eef54dd8cf7c86c03713f53241884e814f4e2f5fb342fe520f639b"
+    url "https://files.pythonhosted.org/packages/e9/67/cae617f1351490c25a4b8ac3b8b63a4dda609295d8222bad12242dfdc629/rich-14.3.4.tar.gz"
+    sha256 "817e02727f2b25b40ef56f5aa2217f400c8489f79ca8f46ea2b70dd5e14558a9"
   end
 
   resource "shellingham" do
