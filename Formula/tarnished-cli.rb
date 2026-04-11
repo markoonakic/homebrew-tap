@@ -3,13 +3,13 @@ class TarnishedCli < Formula
 
   desc "Agent-first CLI for Tarnished"
   homepage "https://github.com/markoonakic/tarnished"
-  url "https://files.pythonhosted.org/packages/b1/e5/2a4a0b2864d7f9ca4b42ef2e5fd4f32386b1963d43403e4863aa484c743d/tarnished_cli-0.1.5.tar.gz"
-  sha256 "f0889bbfdad097766c1b45650c4b1dd1b1d61b532064592b95bef879ec7d3464"
+  url "https://files.pythonhosted.org/packages/d9/b3/157dbdda75d1d8eaa56a00f37dcd93007fa53982f22e5e55866cdef362ea/tarnished_cli-0.1.7.tar.gz"
+  sha256 "83f55d9fa5a099bdf1c46f2ca44d45e1cc744abc2fa6fc8cfb64cd8a4ccbdd7a"
   license "MIT"
 
   depends_on "maturin" => :build # for pydantic-core
   depends_on "rust" => :build # for pydantic-core
-  depends_on "python@3.14"
+  depends_on "python@3.12"
 
   resource "annotated-doc" do
     url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
