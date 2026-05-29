@@ -122,8 +122,8 @@ class TarnishedCli < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/08/26/8e9a4f2c98caefcf4ac25788d48939516a9dd4265fcf9bdd578a2a1b55dd/typer-0.26.1.tar.gz"
-    sha256 "537d27ae686d82967f6383382a952cb32ba4768898541effccb69ca75bbd5d23"
+    url "https://files.pythonhosted.org/packages/67/a5/756f2e6bc81a7dd79aa3c625dd01b74cabc4516628cace2caaec09ca6ff2/typer-0.26.2.tar.gz"
+    sha256 "9b4f19e08fcc9427a822d1ef467b1fe76737a2f65c7926bdeba2337d73569b68"
   end
 
   resource "typing-extensions" do
