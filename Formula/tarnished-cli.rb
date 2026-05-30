@@ -57,8 +57,8 @@ class TarnishedCli < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/1a/88/bcf9709822fe69d02c2a6a77956c98ce6ea8ca8767a9aadcedc7eb6a2390/idna-3.16.tar.gz"
-    sha256 "d7a6da03db833450fca25d2358ac9ff06cd624577a4aea3a596d5c0f77b8e03d"
+    url "https://files.pythonhosted.org/packages/b9/28/99c51f664567218d824af024c0251650fb27e4ca066df188dab0769c5b91/idna-3.17.tar.gz"
+    sha256 "5eb0cb53bc467c12eadcf6de83163ad8527cec9416f44b9b61b19caedad2b87f"
   end
 
   resource "jaraco-classes" do
@@ -122,8 +122,8 @@ class TarnishedCli < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/67/a5/756f2e6bc81a7dd79aa3c625dd01b74cabc4516628cace2caaec09ca6ff2/typer-0.26.2.tar.gz"
-    sha256 "9b4f19e08fcc9427a822d1ef467b1fe76737a2f65c7926bdeba2337d73569b68"
+    url "https://files.pythonhosted.org/packages/cc/15/f5fc7be23b7196bc065b282d9589a372392fb10860c80f9c1dd7eb008662/typer-0.26.3.tar.gz"
+    sha256 "3e2b9352f535e5303ef27806dadc2c8647687bdca5c902f03fec3fb88f46a46a"
   end
 
   resource "typing-extensions" do
